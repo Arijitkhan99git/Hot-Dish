@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:padding="5dp">
+    <LinearLayout
+        android:id="@+id/llContent1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/txtOrderHistoryRestaurantName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:paddingHorizontal="10dp"
+            android:text="Restaurant_name"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtOrderHistoryDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:paddingHorizontal="10dp"
+            android:text="10-05-20 01:12:16"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llContent2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/llContent1"
+        android:layout_marginTop="15dp"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/txtOrderHistoryFoodName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:paddingHorizontal="10dp"
+            android:text="Food Name"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtOrderHistoryFoodPrice"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:paddingHorizontal="10dp"
+            android:text="Rs. 200"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/llContent2"
+        android:layout_marginHorizontal="10dp"
+        android:background="#bdbdbd" />
+
+</RelativeLayout>

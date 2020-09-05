@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="fragments.FaqFragment"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/askQ1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Q.1) How much is the delivery fee?"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorFav"
+        android:padding="5dp" />
+    <TextView
+        android:id="@+id/askA1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/colorblack"
+        android:text="Delivery charge is free,after on ordering value is Rs. 100.Min delivery charge is Rs.15 ."
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        />
+    <View
+        android:id="@+id/fv1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@color/back"
+        />
+
+    <TextView
+        android:id="@+id/askQ2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Q.2) Are restaurents good enough !"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorFav"
+        android:padding="5dp" />
+    <TextView
+        android:id="@+id/askA2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/colorblack"
+        android:text="Oh yes! we are always trying to make best food for you. Enjoy your food without worry."
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        />
+    <View
+        android:id="@+id/fv2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@color/back"
+
+        />
+
+    <TextView
+        android:id="@+id/askQ3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Q.3) My order is late"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorFav"
+        android:padding="5dp" />
+    <TextView
+        android:id="@+id/askA3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/colorblack"
+        android:text="If yor are not happy,we are not happy.Our partner restaurants do a great job of preparing and delivery on time,but some time unexpected things get in the way."
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        />
+    <View
+        android:id="@+id/fv3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@color/back"
+
+        />
+    <TextView
+        android:id="@+id/askQ4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Q.4) Registration failed !!"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorFav"
+        android:padding="5dp" />
+    <TextView
+        android:id="@+id/askA4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/colorblack"
+        android:text="Please enter a valid mobile number and mail id.Please check this number and mail was't registered before."
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        />
+    <View
+        android:id="@+id/fv4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@color/back"
+
+        />
+    <TextView
+        android:id="@+id/askQ5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Q.5) How i reset my password?"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorFav"
+        android:padding="5dp" />
+    <TextView
+        android:id="@+id/askA5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/colorblack"
+        android:text="Enter the registered mobile number and mail,an OTP will be send on your registered mail id."
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        />
+    <View
+        android:id="@+id/fv5"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@color/back"
+        />
+
+</LinearLayout>

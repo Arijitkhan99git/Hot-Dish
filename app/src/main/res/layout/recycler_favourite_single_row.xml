@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:background="#ffffff"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="5dp">
+
+    <LinearLayout
+        android:id="@+id/llFavcontent"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        android:weightSum="10"
+        >
+
+        <ImageView
+            android:layout_weight="3"
+            android:id="@+id/imgFavDishImage"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_launcher"
+            android:padding="5dp"
+            android:scaleType="fitCenter"/>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6">
+
+            <TextView
+                android:id="@+id/txtFavDishName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtFavDishPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtFavDishName"
+                android:padding="5dp"
+                android:textColor="#357a38"
+                android:textSize="15sp"
+                 />
+
+            <TextView
+                android:id="@+id/txtFavDishRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtFavDishPrice"
+                android:drawableLeft="@drawable/ic_rating"
+               android:padding="5dp"
+                android:textColor="#ffca28"
+                android:text="4.2"
+                android:textSize="15sp"
+                android:drawablePadding="5dp"
+                >
+
+            </TextView>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/addFavFav"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_action_favourite"
+            android:drawablePadding="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            />
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

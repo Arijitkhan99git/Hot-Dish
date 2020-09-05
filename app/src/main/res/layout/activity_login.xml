@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.LoginActivity"
+    android:background="#FF6D00">
+
+    <ImageView
+        android:id="@+id/imgLLogo"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logo_dish"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:padding="15dp"
+        />
+    <EditText
+        android:id="@+id/etLMobileNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgLLogo"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="10dp"
+        android:inputType="number"
+        android:hint="Enter Your Mobile Number"
+        android:background="@drawable/edit_round"
+        android:maxLength="10"
+        />
+    <EditText
+        android:id="@+id/etLPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etLMobileNumber"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:hint="Enter your Password"
+        android:background="@drawable/edit_round"
+        />
+    <Button
+        android:id="@+id/btnLLogin"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_below="@id/etLPassword"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_round"
+        android:textSize="20dp"
+        android:textColor="@color/colorwhite"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:id="@+id/txtLForgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/forgot_password"
+        android:layout_below="@id/btnLLogin"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/txtLRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dont't have an account? Sign up"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:textColor="#ffffff"
+        />
+
+</RelativeLayout>

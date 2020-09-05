@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "484811858520",
+    "firebase_url": "https://fir-demo-cbd2c.firebaseio.com",
+    "project_id": "fir-demo-cbd2c",
+    "storage_bucket": "fir-demo-cbd2c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:484811858520:android:a31b7fcf8ef26c8df5a02d",
+        "android_client_info": {
+          "package_name": "com.arijitkhan.firebasedemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "484811858520-luqv22ddqq9dqj3j9unojnuq63ivu9ns.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxP3qtJL1y0oFYaXQ0XFA-YZmX-No0sSI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "484811858520-luqv22ddqq9dqj3j9unojnuq63ivu9ns.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:484811858520:android:c58d50683fd6fbcff5a02d",
+        "android_client_info": {
+          "package_name": "com.internshala.foodrunner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "484811858520-luqv22ddqq9dqj3j9unojnuq63ivu9ns.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxP3qtJL1y0oFYaXQ0XFA-YZmX-No0sSI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "484811858520-luqv22ddqq9dqj3j9unojnuq63ivu9ns.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragments.HistoryFragment">
+
+
+    <TextView
+        android:id="@+id/txthistoryHead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your previous order listed below:"
+        android:textSize="20sp"
+        android:padding="5dp"/>
+    <View
+        android:id="@+id/vborder"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/txthistoryHead"
+        android:layout_margin="5dp"
+        android:background="#e0e0e0"/>
+  <androidx.recyclerview.widget.RecyclerView
+      android:id="@+id/recyclerHistory"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_below="@id/vborder"
+      android:padding="10dp"/>
+
+</RelativeLayout>

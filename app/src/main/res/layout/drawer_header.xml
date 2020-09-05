@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@color/colorPrimary"
+    >
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:src="@drawable/logo_profile"
+        />
+
+    <TextView
+        android:id="@+id/txtUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Food Runner"
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:id="@+id/txtUserMailId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mail Id"
+        android:padding="5dp"
+        android:textSize="16sp"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="10dp"
+        />
+</LinearLayout>

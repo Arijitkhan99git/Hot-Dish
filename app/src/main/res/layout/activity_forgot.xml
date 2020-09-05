@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.ForgotActivity"
+    android:background="@color/back">
+
+    <ImageView
+        android:id="@+id/imgFLogo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logo_dish1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/txtFAlert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Registered Mobile Number and Email Address"
+        android:layout_below="@id/imgFLogo"
+        android:textSize="18dp"
+        android:layout_margin="20dp"
+        android:textColor="@color/colorwhite"
+        />
+    <EditText
+        android:id="@+id/etFMobileNumber"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/txtFAlert"
+        android:background="@drawable/edit_round"
+        android:drawableLeft="@mipmap/ic_phone"
+        android:hint="Mobile Number(10 Digits)"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:maxLength="10"
+        android:inputType="phone"
+        />
+    <EditText
+        android:id="@+id/etFEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/etFMobileNumber"
+        android:background="@drawable/edit_round"
+        android:drawableLeft="@mipmap/ic_email"
+        android:hint="Email Address"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="10dp"
+        android:inputType="textEmailAddress"
+        />
+    <Button
+        android:id="@+id/btnFLogin"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_below="@id/etFEmailAddress"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_round"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        />
+
+    <FrameLayout
+        android:id="@+id/resetFrame"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+</RelativeLayout>

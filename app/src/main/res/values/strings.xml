@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Hot Dish</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="food_runner">Food Runner</string>
+    <string name="preference_file">Log in Preference</string>
+    <string name="open_drawer">open drawer</string>
+    <string name="close_drawer">close drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="proceed_to_cart">proceed to cart</string>
+</resources>

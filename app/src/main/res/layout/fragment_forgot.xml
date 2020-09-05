@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragments.ForgotFragment"
+    android:background="@color/back">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgFLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo_dish1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/txtResetPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the recived OTP below"
+        android:layout_below="@id/imgFLogo"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+        android:textColor="@color/colorwhite"
+       android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/etOtp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/txtResetPass"
+        android:background="@drawable/edit_round"
+        android:hint="OTP (4 characters)"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="10dp"
+        android:inputType="number"
+        />
+    <EditText
+        android:id="@+id/etResetPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/etOtp"
+        android:background="@drawable/edit_round"
+        android:hint="New Password (Min. 4 characters)"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        />
+    <EditText
+        android:id="@+id/etResetConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/etResetPassword"
+        android:background="@drawable/edit_round"
+        android:hint="Confirm Password"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        />
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_below="@id/etResetConfirmPassword"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_round"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        />
+</RelativeLayout>
+</FrameLayout>
