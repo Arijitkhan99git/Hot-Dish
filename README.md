@@ -12,4 +12,4 @@
 
 
 ###### * 1. If you have already an account, you just login with password**.
-** 2. If you forgot your password, click on 'forgot password'.
+###### ** 2. If you forgot your password, click on 'forgot password'.
